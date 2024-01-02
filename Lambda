@@ -1,3 +1,4 @@
 What is Lambda
  if we want to execute a piece of code under any platform like python, .net or java we use Lambda function.
-We dont have to worry about dependencies AWS lambda will take care we just need to select the runtime and give the function.
+ We dont have to worry about dependencies AWS lambda will take care we just need to select the runtime and give the function.
+ Its serverless computer feature
