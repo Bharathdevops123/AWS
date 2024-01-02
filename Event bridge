@@ -1,1 +1,5 @@
 Event Bridge
+
+If you want to trigger some service or get a notification if some kind of event happens then we use Event bridge
+
+Example: If an Ec2 goes down i need to get an email
