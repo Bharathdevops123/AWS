@@ -22,4 +22,6 @@ Collect them and give here.
 Default location : us-east-1
 Default Output {none]: click enter here we will use default
 
-
+To check that connection established or not run below commands
+-------------------------------------------------------------
+aws iam list-users --profile <profile name>
