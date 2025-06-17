@@ -25,3 +25,9 @@ Default Output {none]: click enter here we will use default
 To check that connection established or not run below commands
 -------------------------------------------------------------
 aws iam list-users --profile <profile name>
+
+Basically,
+In the organizations we run builds on EC2 instances so in that case we use Profiles with role_Arn 
+This role arn will be available on Ec2 instance meta data
+
+
