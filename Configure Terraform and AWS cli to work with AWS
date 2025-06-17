@@ -7,14 +7,15 @@ Its just an .exe file download it and place it in a folder. Set path to the syst
 
 2)Install AWS CLI
 
-Configure AWS:
---------------
+3) Configure AWS to allow the authentication to AWS site and allow provisioning of resources:
+-----------------------------------------------------------------------------------------
 Open Powershell and run below commands
 Get-Command aws -- It shows whether aws is installed or not.
 Get-Command terraform --It shows whether terraform is installed or not.
 aws configure --profile <Our own profile name>
 
 It will ask for Access Key and Secret Access Key
+----------------------------------------------
 Go to AWS --> IAM -->Users--> select the user account and create a new Access Key and Secret Access Key
 Collect them and give here.
 
