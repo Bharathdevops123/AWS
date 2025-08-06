@@ -1,4 +1,6 @@
 AWS services
 -------------
 Ec2: Elastic cloud Computing : like our computers
+
 EBS: Elastic block storage : we will atach storage to the Ec2. like D drive storage,E drive storage
+- EBS volumes are bound to availability zones. you cannot attach an ebs of us-east to us-west.where Ec2 is in us-east
